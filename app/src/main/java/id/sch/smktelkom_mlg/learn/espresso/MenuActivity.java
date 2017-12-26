@@ -23,7 +23,7 @@ import id.sch.smktelkom_mlg.learn.espresso.model.Tea;
 
 public class MenuActivity extends AppCompatActivity implements ImageDownloader.DelayerCallback {
 
-    public final static String EXTRA_TEA_NAME = "com.example.android.teatime.EXTRA_TEA_NAME";
+    public final static String EXTRA_TEA_NAME = "id.sch.smktelkom_mlg.learn.espresso.EXTRA_TEA_NAME";
     Intent mTeaIntent;
 
     @Nullable

@@ -31,12 +31,14 @@ public class TeaMenuAdapter extends ArrayAdapter<Tea> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         ViewHolder holder = null;
         Tea currentTea = getItem(position);
 
         if (convertView == null) {
+            // If it's not recycled, initialize some attributes
             LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
-            convertView = inflater.inflate(layoutResourceId, parent, false);
+            convertView = inflater.inflate(layoutResourceId, parent, true);
             holder = new ViewHolder();
             holder.imageTitle = convertView.findViewById(R.id.tea_grid_name);
             holder.image = convertView.findViewById(R.id.image);
