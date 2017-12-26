@@ -48,6 +48,8 @@
     <string name="email_message">I just ordered a delicious tea from TeaTime. Next time you are craving a tea, check them out!</string>
 
     <string name="done_msg">Your tea is ready!</string>
+    <string name="loading_msg">Loading images</string>
+
     <string-array name="tea_size_array">
         <item>Medium ($6/cup)</item>
         <item>Small ($5/cup)</item>
